@@ -27,12 +27,3 @@ The code generates CSV outputs for vaccination coverage, epidemic size, and hyst
 
 ### Requirements
 - C++17 compiler (g++ 9+, clang 10+, MSVC 2019+)
-- CMake ≥ 3.15
-- (Optional) OpenMP for multithreading
-
-### Build
-```bash
-git clone https://github.com/<org>/<repo>.git
-cd <repo>
-cmake -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --config Release
